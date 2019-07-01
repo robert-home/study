@@ -19,3 +19,4 @@ target/
 .project
 .classpath
 .terraform
+.factorypath
