@@ -5,9 +5,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pl.rbudner.study</groupId>
     <artifactId>littlegrid</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>pl.rbudner.study</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../parent</relativePath>
+    </parent>
 
     <dependencies>
         <dependency>
@@ -25,20 +31,10 @@
             <artifactId>coherence</artifactId>
             <version>12.2.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
     </dependencies>
-
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 
 </project>

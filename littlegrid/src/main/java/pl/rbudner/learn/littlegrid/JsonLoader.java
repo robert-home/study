@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-public class JsonLoader {
+class JsonLoader {
 
-    public NamedCache loadCache(Entity entity) throws IOException {
+    NamedCache loadCache(Entity entity) throws IOException {
         NamedCache namedCache = CacheFactory.getCache(entity.getCacheName());
         List data = loadData(entity);
         KeyProvider keyProvider = entity.getKeyProvider();

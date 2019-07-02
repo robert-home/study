@@ -1,8 +1,9 @@
 package pl.rbudner.learn.littlegrid.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Person {
+public class Person implements Serializable {
 
     private int id;
     private String gender;
@@ -82,4 +83,10 @@ public class Person {
     public int hashCode() {
         return email.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return getFirstName() + " " + getLastName() + " (" + getEmail() + ")";
+    }
+
 }
