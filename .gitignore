@@ -12,8 +12,8 @@ gradlew.bat
 target/
 
 # intellij idea
-.idea
+.idea/
 *.iml
 
 # visual studio code
-.vscode
+.vscode/
