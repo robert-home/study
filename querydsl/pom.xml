@@ -5,29 +5,21 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jdk8</artifactId>
+    <groupId>pl.rbudner.study</groupId>
+    <artifactId>querydsl</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <parent>
-        <groupId>pl.rbudner.study</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0</version>
-        <relativePath>../parent</relativePath>
-    </parent>
 
     <dependencies>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>RELEASE</version>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-sql</artifactId>
+            <version>4.0.7</version>
         </dependency>
+
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.6.1</version>
         </dependency>
     </dependencies>
 
@@ -38,7 +30,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <compilerArgument>-proc:none</compilerArgument>
                 </configuration>
             </plugin>
         </plugins>

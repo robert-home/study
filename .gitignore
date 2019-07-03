@@ -7,6 +7,8 @@
 build/
 gradlew
 gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
 
 # maven
 target/
@@ -14,6 +16,10 @@ target/
 # intellij idea
 *.iml
 .idea
+out/
+
+.vscode
+*.code-workspace
 
 .settings
 .project
