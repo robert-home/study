@@ -13,7 +13,10 @@ target/
 
 # intellij idea
 .idea/
-*.iml
+**.iml
 
 # visual studio code
 .vscode/
+
+# Project exclude paths
+/parent/classes/
