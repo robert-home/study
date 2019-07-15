@@ -26,3 +26,6 @@ out/
 .classpath
 .terraform
 .factorypath
+
+# Project exclude paths
+/parent/classes/
