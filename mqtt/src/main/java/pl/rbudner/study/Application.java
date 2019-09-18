@@ -33,7 +33,7 @@ public class Application {
             System.exit(0);
         } catch (MqttException me) {
             System.out.println("Exception:" + me.getReasonCode() + " " + me.getMessage());
-            System.exit(1);
+            System.exit(1); // error
         }
     }
 }
