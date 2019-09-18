@@ -14,6 +14,7 @@ public class Application {
 
     public static void main(String[] args) {
         try {
+            // comment
             MqttClient sampleClient = new MqttClient(BROKER, CLINET_ID, new MemoryPersistence());
             MqttConnectOptions connOpts = new MqttConnectOptions();
             connOpts.setUserName("");
