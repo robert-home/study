@@ -13,7 +13,7 @@
         <dependency>
             <groupId>com.querydsl</groupId>
             <artifactId>querydsl-sql</artifactId>
-            <version>4.0.7</version>
+            <version>4.2.1</version>
         </dependency>
 
         <dependency>
